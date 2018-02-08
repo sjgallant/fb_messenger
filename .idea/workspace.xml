@@ -2,8 +2,680 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a3a96ae-01bb-4b6f-891b-f9c948f6b603" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gui.py" />
-      <change beforePath="$PROJECT_DIR$/messenger.py" afterPath="$PROJECT_DIR$/functions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/messenger.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/appjar.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/examples/showcase.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-cube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-cylinder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-glasses.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-plane.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-pyramid.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-sphere.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-wedge.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-x-axis-rotation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-y-axis-rotation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/3d-z-axis-rotation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/4-direction-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/4-direction.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/8-direction-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/8-direction.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/License.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ReadMe.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/about.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/access.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/activity.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/address-book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/airport.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/alarm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/alert-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/alert.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/anchor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/announce.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/antivirus-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/antivirus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-backward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-down-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-down-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-forward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-up-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-up-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-1-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-down-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-down-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-up-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-up-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-2-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-down-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-down-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-up-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-up-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-3-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-down-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-down-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-up-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-up-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-4-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-5-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-5-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-5-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-5-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-6-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-6-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-6-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-6-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-7-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-7-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-7-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-7-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-8-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-8-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-8-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-8-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-circular-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-circular-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-orthogonal-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/arrow-orthogonal-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/asterisk-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/asterisk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/attachment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/axis-x-y-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/axis-x-y.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/badge.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag-alt-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/baggage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/balance.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bank-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bank-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bank.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/barcode.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/basket-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/basket-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/basket-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/basket.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/battery-empty-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/battery-empty.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/battery-full-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/battery-full.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bicycle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/blog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bluetooth.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/book-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/book-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/book-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/book-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bookmark-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bookmark.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/books.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/box-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/box.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/briefcase.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/brush-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/brush-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/brush.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bug.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/bussiness-card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cake-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cake.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/calculator-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/calculator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/calendar-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/calendar-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/calendar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cancel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart-alt-6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chair-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chair.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-active-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-active-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-active.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/chat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/check-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/check.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/checkbox-empty.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/checkbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cheque.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cinema.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/city.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/code.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/color-picker.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/color-swatch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/comment-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/comment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/compass-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/compass.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/compress.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/computer-laptop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/computer-retro.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/computer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connect-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connect-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connection-error-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connection-error-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/connection-error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/construction.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/content.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/controls-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/controls-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/controls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/copy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/couch-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/couch-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/couch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/counter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/credit-card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/crop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cross.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cup-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cup.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/cut.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/data-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/data-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/data.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-add-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-add-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-download-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-download-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-reload-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-reload-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-reload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-remove-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-remove-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-remove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-upload-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-upload-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-upload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-user-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database-user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/database.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/delete.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/directions-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/directions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/display-mac-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/display-mac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/display.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/document-empty.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/document-new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/document.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/documents.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/door-closed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/door.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/download-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/download-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/download-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/download-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawer-locked.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawer-unlocked.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawers-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawers-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drawers.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drill.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drive-disk-cd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/drive-network.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/edit-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/edit-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/edit-document.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/eightball.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/elevator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/enter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/eraser.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ethernet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/exit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/export.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/facebook-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/factory.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/fan-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/fan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/favourite-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/favourite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-download-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-edit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-remove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-upload-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file-upload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/files.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/fill.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/filter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/find.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/fire.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/firewall.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/firewire.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/first-aid-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/first-aid.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/flag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/folder-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/font.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/food.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ftp-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ftp-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ftp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-alt-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit-alt-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen-exit.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/full-screen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/gameboy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games-alt-6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/games.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/gift.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/glasses-swim.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/glasses.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/grid-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/grid-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/grid-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/grid-dot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/grid.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hammer-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hammer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hardware-chip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hardware-processor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hedge.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/help-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/help.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/hierarchy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/high-definition.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/home.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/i-phone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/i-pod.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/icecream.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/idea-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/idea.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-A.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-Alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-apple.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-backspace-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-backspace.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-caps.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-command.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-control.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-enter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-option.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-page-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-page-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-shift.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-tab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key-windows.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/key.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/keyboard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/keyhole.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/kokoretsi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/kraftwerk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/label.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/lamp-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/lamp-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/lamp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/layers.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/layout-content.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/layout-header.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/layout-sidebar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/layout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/license-key.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/link-broken.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/link.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/list-numbered.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/list-ordered.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/list-unordered.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/list.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/location.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/login.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/logout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/luck.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/magnet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mail-inbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mail-read.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mail-sent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/man.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/map-marker-pin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/map.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-analog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-aspect-ratio-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-aspect-ratio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-audio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-backward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-betamax.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-brightness.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-photo-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-photo-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-photo-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-photo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-polaroid.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-surveillance.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-video-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-video-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-video.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-camera-web.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-cassette-tape.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-cd-burn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-cd-card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-cd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-contrast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-dat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-disc-3''.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-disc-3-5''.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-disc-5-1-4''.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-eject.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-equalizer-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-equalizer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-fast-backward-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-fast-backward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-fast-forward-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-fast-forward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-film.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-flash.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-headphones-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-headphones-mic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-headphones.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-inverse.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-knob-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-knob-decrease.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-knob-increase.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-knob-volume.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-knob.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-levels-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-levels-decrease.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-levels-increase.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-levels.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-microphone-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-microphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-minidisc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-music.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-pause.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-photo-alt 2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-photo-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-photo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-photos-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-photos.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-picture-broken-link-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-picture-broken-link.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-previous.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-radio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-record.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-reload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-repeat-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-repeat-once.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-repeat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-resume.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-shuffle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-sound.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-speaker-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-speaker.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-split.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-stop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-stream-audio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-stream-video.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-synth.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-time-pos-back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-time-pos-forward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-time-pos-set.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-time-position.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-tv.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-vhs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-video.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-vinyl-33-1-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-vinyl-45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-0-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/md-volume-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/medal-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/medal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mobile-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mobile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/module.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/moleskine.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/moon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/mouse.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/navigation-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/navigation-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/navigation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/network-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/network.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/no.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/node.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/notepad-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/notepad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/open-in-new-window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/open-source.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/orientation-landscape.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/orientation-portrait.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/padlock-closed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/padlock-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/paintroller-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/paintroller.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/park-bench.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/paste.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pattern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pie-chart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pill.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pin.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pinetree.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/plugin-disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/plugin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/podcast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/pollution.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/power-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/power-on-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/power-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/power-standby.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/preferences.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/presentation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/print-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/print.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/printer-preview.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/printer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/projector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/read-only.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/redo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/refreshment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/register.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/remote-control.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/report.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/resize.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/rip.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/road-sign.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ruby.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ruler-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/ruler.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/safety-box.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/save.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/science.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/screenshot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/script.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/search-advanced.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/server.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/servers.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/settings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-circle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-ellipse.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-hexagon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-kite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-parallelogram-orthogonal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-pentagon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-rhombus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-square.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-trapezoid.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-triangle-equilateral.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-triangle-isosceles.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-triangle-rectangular.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shape-triangle-scalene.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-hori-center.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-hori-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-hori-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-verti-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-verti-middle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-align-verti-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-flip-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-flip-vertical.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-move-back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-move-backward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-move-forward.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-move-front.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-rotate-anticlockwise.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/shapes-rotate-clockwise.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/sitemap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/spaceship.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/stamp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/star.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/statistics-chart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/sticky-note.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/stop-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/stop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/stopwatch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/store.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/switch-off-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/switch-off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/switch-on-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/switch-on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/tab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/table.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/tag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/tags.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/target.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/telephone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/tent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/terminal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/thumbnails.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/tie.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/time-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/time.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/toolbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trafficlight-green.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trafficlight-orange.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trafficlight-red.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trafficlight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trash-empty.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trash-full.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/trophy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/truck.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/typewritter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/undo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unfold-from-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unfold-from-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unfold-from-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unfold-from-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unfold-multiple.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/unpin.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-alt-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-art.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-chat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-female-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-female-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-female.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-locked.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-male-alt-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-male-alt-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-male-alt-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-male.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-offline.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user-sleep.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/users-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/users.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/view.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wall-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wall.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wallet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/water-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/water.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-cloud-sun.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-cloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-clouds.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-rain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-snow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-sun.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weather-thunder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/web.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/weight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wi-fi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/window-stack.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/window-tile-horizontally.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/window-tile-vertically.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/window-tile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wireless-router.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/wizard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/zoom-in.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/zoom-out.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/appJar/resources/icons/zoom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/functions.py" afterPath="$PROJECT_DIR$/functions.py" />
+      <change beforePath="$PROJECT_DIR$/gui.py" afterPath="$PROJECT_DIR$/gui.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,22 +686,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="messenger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +729,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>major</find>
+      <find>sendMessage</find>
+      <find>loginDialog</find>
+      <find>frame</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,9 +744,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/messenger.py" />
-        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/messenger.py" />
       </list>
     </option>
   </component>
@@ -91,6 +786,16 @@
             <path>
               <item name="fb_messenger" type="b2602c69:ProjectViewProjectNode" />
               <item name="fb_messenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fb_messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fb_messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="Dependencies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fb_messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fb_messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,16 +839,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -153,9 +860,30 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -176,19 +904,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/messenger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
