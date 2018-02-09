@@ -5,13 +5,17 @@ from fbchat.models import *
 
 
 def login(username, password):
+    print __name__
     client = Client(username, password)
 
-    if not client.isLoggedIn():
-        client.login(username, password)
+    if client.isLoggedIn():
+        return True, client
     else:
-        print "Login successful"
-        client.logout()
+        return False, None
+
+
+def send_message(client, message):
+    client.send(Message(text=message), thread_id=client.uid, thread_type=ThreadType.USER)
 
 
 if __name__ == "__main__":

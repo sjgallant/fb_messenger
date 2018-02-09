@@ -1,5 +1,6 @@
 import wx
 import functions
+from fbchat import Client
 
 if "2.8" in wx.version():
     import wx.lib.pubsub.setupkwargs
@@ -13,7 +14,6 @@ class LoginDialog(wx.Dialog):
     """
     Class to define login dialog
     """
-
     # ----------------------------------------------------------------------
     def __init__(self):
         """ Constructor """
@@ -51,15 +51,15 @@ class LoginDialog(wx.Dialog):
         """
         Check credentials and login
         """
-        stupid_password = "pa$$w0rd"
 
         user_password = self.password.GetValue()
         user_username = self.user.GetValue()
 
-        functions.login(user_username, user_password)
+        login = functions.login(user_username, user_password)
+        global client
+        client = login[1]
 
-        if user_password == stupid_password:
-            print "You are now logged in!"
+        if login[0]:
             pub.sendMessage("frameListener", message="show")
             self.Destroy()
         else:
@@ -77,6 +77,53 @@ class MyPanel(wx.Panel):
 
 
 ########################################################################
+class MessageDialog(wx.Dialog):
+    """ Class to define message menu """
+    def __init__(self):
+        """ Constructor """
+        wx.Dialog.__init__(self, None, title="Send Message")
+
+        # Message info
+        msg_sizer = wx.BoxSizer(wx.HORIZONTAL)
+
+        msg_lbl = wx.StaticText(self, label="Message:")
+        msg_sizer.Add(msg_lbl, 0, wx.ALL | wx.CENTER, 5)
+        self.message = wx.TextCtrl(self)
+        msg_sizer.Add(self.message, 0, wx.ALL, 5)
+
+        # pass info
+        main_sizer = wx.BoxSizer(wx.VERTICAL)
+        main_sizer.Add(msg_sizer, 0, wx.ALL, 5)
+
+        # Send Button
+        send_btn = wx.Button(self, label="Send")
+        send_btn.SetDefault()
+        send_btn.Bind(wx.EVT_BUTTON, self.sendMessage)
+        main_sizer.Add(send_btn, 0, wx.ALL | wx.CENTER, 5)
+
+        # Logout Button
+        logout_btn = wx.Button(self, label="Logout")
+        logout_btn.Bind(wx.EVT_BUTTON, self.logout)
+        main_sizer.Add(logout_btn, 0, wx.ALL | wx.CENTER, 0)
+
+        self.SetSizer(main_sizer)
+
+    def sendMessage(self, event):
+        """ Send message """
+        # Gets value of message box
+        msg = self.message.GetValue()
+        # Sends message
+        functions.send_message(client, msg)
+        # Clears textbox
+        self.message.Value = ""
+
+    def logout(self, event):
+        global client
+        client.logout()
+        self.Destroy()
+
+
+########################################################################
 class MainFrame(wx.Frame):
     """"""
 
@@ -87,10 +134,11 @@ class MainFrame(wx.Frame):
         panel = MyPanel(self)
         pub.subscribe(self.myListener, "frameListener")
 
-
-
         # Ask user to login
         dlg = LoginDialog()
+        dlg.ShowModal()
+
+        dlg = MessageDialog()
         dlg.ShowModal()
 
     # ----------------------------------------------------------------------
@@ -99,3 +147,6 @@ class MainFrame(wx.Frame):
         Show the frame
         """
         self.Show()
+
+    # ----------------------------------------------------------------------
+
