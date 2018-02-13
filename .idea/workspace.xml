@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a3a96ae-01bb-4b6f-891b-f9c948f6b603" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/listener.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/fb_messenger.iml" afterPath="$PROJECT_DIR$/.idea/fb_messenger.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/MANIFEST.in" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/README.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/_static/find-group-id.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/_static/license.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/_static/python-versions.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/_templates/layout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/_templates/sidebar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/api.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/conf.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/examples.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/faq.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/index.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/install.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/intro.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/make.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/testing.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/docs/todo.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/basic_usage.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/echobot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/fetch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/interract.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/keepbot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/examples/removebot.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/fbchat/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/fbchat/client.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/fbchat/graphql.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/fbchat/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/fbchat/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/requirements.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/setup.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/tests/data.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/fbchat-master/tests/image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Images/icon.ico" afterPath="$PROJECT_DIR$/Images/icon.ico" />
       <change beforePath="$PROJECT_DIR$/functions.py" afterPath="$PROJECT_DIR$/functions.py" />
       <change beforePath="$PROJECT_DIR$/gui.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/messenger.py" afterPath="$PROJECT_DIR$/messenger.py" />
@@ -61,8 +22,8 @@
       <file leaf-file-name="messenger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/messenger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1850">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="3">
+              <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -73,8 +34,8 @@
       <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -86,17 +47,7 @@
         <entry file="file://$PROJECT_DIR$/listener.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fb_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fb_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -115,7 +66,6 @@
     <findStrings>
       <find>major</find>
       <find>sendMessage</find>
-      <find>loginDialog</find>
       <find>frame</find>
       <find>login</find>
       <find>mainapp</find>
@@ -126,6 +76,11 @@
       <find>print</find>
       <find>MainFrame.</find>
       <find>codec</find>
+      <find>client</find>
+      <find>loginDialog</find>
+      <find>exit</find>
+      <find>main_sizer</find>
+      <find>sendmessage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,12 +90,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$PROJECT_DIR$/fb_test.py" />
-        <option value="$PROJECT_DIR$/messenger.py" />
-        <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/listener.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/messenger.py" />
       </list>
     </option>
   </component>
@@ -259,8 +214,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -312,6 +267,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/messenger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/messenger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -492,13 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py" />
     <entry file="file://$PROJECT_DIR$/messenger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -519,13 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,13 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gui.py" />
     <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -554,14 +527,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/gui.py" />
+    <entry file="file://$PROJECT_DIR$/gui.py" />
     <entry file="file://$PROJECT_DIR$/fb_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -570,36 +537,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/listener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/wx/core.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="22945" column="8" lean-forward="false" selection-start-line="22945" selection-start-column="8" selection-end-line="22945" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listener.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messenger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1850">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="3">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

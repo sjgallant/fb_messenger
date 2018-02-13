@@ -44,7 +44,15 @@ class LoginDialog(wx.Dialog):
         btn.Bind(wx.EVT_BUTTON, self.onLogin)
         main_sizer.Add(btn, 0, wx.ALL | wx.CENTER, 5)
 
+        exitbtn = wx.Button(self, label="Exit")
+        exitbtn.Bind(wx.EVT_BUTTON, self.onExit)
+        main_sizer.Add(exitbtn, 0, wx.ALL, 5)
+
         self.SetSizer(main_sizer)
+
+        # Adds Icon image to window
+        icon = wx.Icon('Images\icon.ico', wx.BITMAP_TYPE_ICO, 32, 32)
+        wx.Frame.SetIcon(self, icon)
 
     # ----------------------------------------------------------------------
     def onLogin(self, event):
@@ -60,11 +68,13 @@ class LoginDialog(wx.Dialog):
         client = login[1]
 
         if login[0]:
-            pub.sendMessage("frameListener", message="show")
             self.Destroy()
         else:
-            print "Username or password is incorrect!"
+            print("Username or password is incorrect!")
 
+    # ----------------------------------------------------------------------
+    def onExit(self, event):
+        self.Destroy()
 
 ########################################################################
 class MyPanel(wx.Panel):
@@ -95,18 +105,28 @@ class MessageDialog(wx.Dialog):
         main_sizer = wx.BoxSizer(wx.VERTICAL)
         main_sizer.Add(msg_sizer, 0, wx.ALL, 5)
 
+        btn_sizer = wx.BoxSizer(wx.HORIZONTAL)
+
+        """ Add buttons to their own horizontal sizer
+            then add btn_sizer to main_sizer """
         # Send Button
         send_btn = wx.Button(self, label="Send")
         send_btn.SetDefault()
         send_btn.Bind(wx.EVT_BUTTON, self.sendMessage)
-        main_sizer.Add(send_btn, 0, wx.ALL | wx.CENTER, 5)
+        btn_sizer.Add(send_btn, 0, wx.ALL | wx.CENTER, 5)
 
         # Logout Button
         logout_btn = wx.Button(self, label="Logout")
         logout_btn.Bind(wx.EVT_BUTTON, self.logout)
-        main_sizer.Add(logout_btn, 0, wx.ALL | wx.CENTER, 0)
+        btn_sizer.Add(logout_btn, 0, wx.ALL | wx.CENTER, 5)
 
-        self.SetSizer(main_sizer)
+        main_sizer.Add(btn_sizer)
+
+        self.SetSizerAndFit(main_sizer)
+
+        # Adds Icon image to window
+        icon = wx.Icon('Images\icon.ico', wx.BITMAP_TYPE_ICO, 32, 32)
+        wx.Frame.SetIcon(self, icon)
 
     def sendMessage(self, event):
         """ Send message """
@@ -125,14 +145,12 @@ class MessageDialog(wx.Dialog):
 
 ########################################################################
 class MainFrame(wx.Frame):
-    """"""
-
+    """ Main Frame that dialogs are launched from """
     # ----------------------------------------------------------------------
     def __init__(self):
         """Constructor"""
         wx.Frame.__init__(self, None, title="Main App")
         panel = MyPanel(self)
-        pub.subscribe(self.myListener, "frameListener")
 
         # Ask user to login
         dlg = LoginDialog()
@@ -140,6 +158,8 @@ class MainFrame(wx.Frame):
 
         dlg = MessageDialog()
         dlg.ShowModal()
+
+        return
 
     # ----------------------------------------------------------------------
     def myListener(self, message, arg2=None):
