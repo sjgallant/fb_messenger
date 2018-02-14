@@ -1,5 +1,5 @@
 import wx
-import messenger
+import mainframe
 from fbchat import Client
 from fbchat.models import *
 
@@ -20,6 +20,6 @@ def send_message(client, message):
 
 if __name__ == "__main__":
     app = wx.App(False)
-    frame = messenger.MainFrame()
+    frame = mainframe.MainFrame()
     app.MainLoop()
 
