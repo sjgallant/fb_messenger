@@ -2,4 +2,4 @@
 A Facebook Messenger desktop application
 
 ### Installing Dependencies
-To ensure the proper Python libraries are installed run setup.bat
+To ensure the proper Python libraries are installed run `setup.bat`
