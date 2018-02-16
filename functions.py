@@ -1,12 +1,11 @@
 import wx
 import mainframe
-from fbchat import Client
+from listener import Listener
 from fbchat.models import *
 
 
 def login(username, password):
-    print( __name__)
-    client = Client(username, password)
+    client = Listener(username, password)
 
     if client.isLoggedIn():
         return True, client

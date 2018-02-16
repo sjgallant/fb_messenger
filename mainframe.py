@@ -1,6 +1,6 @@
 import wx
 import functions
-from login import LoginDialog
+import login
 from messenger import MessageDialog
 from fbchat import Client
 
@@ -31,7 +31,7 @@ class MainFrame(wx.Frame):
         panel = MyPanel(self)
 
         # Ask user to login
-        dlg = LoginDialog()
+        dlg = login.LoginDialog()
         dlg.ShowModal()
 
         dlg = MessageDialog()

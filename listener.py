@@ -1,4 +1,6 @@
 from fbchat import Client
+import config
+import messenger
 
 
 # Subclass of client to handle messages when they come in
@@ -15,17 +17,6 @@ class Listener(Client):
             message_object.attachments = 
         """
         if message_object.text is not None:
-            print("message_object.text = ", message_object.text)
-        if message_object.mentions is not None:
-            print("message_object.mentions = ", message_object.mentions)
-        if message_object.emoji_size is not None:
-            print("message_object.emoji_size = ", message_object.emoji_size)()
-        if message_object.sticker is not None:
-            print("message_object.sticker = ", message_object.sticker)
-        if message_object.attachments is not None:
-            print("message_object.attachments = ", message_object.attachments)
-
-
-pwd = input("Password: ")
-client = Listener("sj-gallant@comcast.net", pwd)
-client.listen()
+            message = message_object.author + ": " + message_object.text + '\n'
+            print(message)
+            config.messagesBox.Value += message

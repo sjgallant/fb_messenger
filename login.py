@@ -1,5 +1,6 @@
 import wx
 import functions
+import config
 
 if "2.8" in wx.version():
     import wx.lib.pubsub.setupkwargs
@@ -59,6 +60,9 @@ class LoginDialog(wx.Dialog):
         wx.Frame.SetIcon(self, icon)
 
     # ----------------------------------------------------------------------
+    def doNothing(self, event):
+        return
+
     def onLogin(self, event):
         """
         Check credentials and login
@@ -68,8 +72,7 @@ class LoginDialog(wx.Dialog):
         user_username = self.user.GetValue()
 
         login = functions.login(user_username, user_password)
-        global client
-        client = login[1]
+        config.client = login[1]
 
         if login[0]:
             self.Destroy()
